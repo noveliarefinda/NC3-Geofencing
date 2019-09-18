@@ -89,9 +89,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         // Set the initial app state. This impacts the initial state of the UI as well.~
         state = .loggedout
         
-        
-        //FACE ID STEP 6
         faceidTriggered()
+        //FACE ID STEP 6
+        
         
     }
     
