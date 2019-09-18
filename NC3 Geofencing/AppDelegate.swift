@@ -7,16 +7,47 @@
 //
 
 import UIKit
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate
+
+{
 
     var window: UIWindow?
+    
+    //STEP 1
+    //ADD CENTER PROPERTY (UNTUK NOTIFICATION CENTER)
+    var notificationCenter = UNUserNotificationCenter.current()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
         // Override point for customization after application launch.
+        
+        // STEP 2
+        // untuk delegate notif
+        
+        self.notificationCenter = UNUserNotificationCenter.current()
+        self.notificationCenter.delegate = self
+        
+        //STEP 3
+        //define what do you need permission to use (untuk user privacy WAJIB PAKE)
+        let options: UNAuthorizationOptions = [.alert, .sound]
+        
+        //request permission
+        notificationCenter.requestAuthorization(options: options)
+        { (granted, error) in
+            if !granted
+            {
+                print("Permission not Granted")
+            }
+        }
+        
+        
         return true
+        
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -42,5 +73,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+    //STEP 4
+    //pas muncul notif apa yg terjadi
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler: @escaping (UNNotificationPresentationOptions) -> Void)
+    {
+        //when app is open and in fore ground
+        withCompletionHandler([.alert, .sound])
+    }
+    
+     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler: @escaping () -> Void)
+     {
+        //get notif indengtifier to respond accordingly
+        let identifier = response.notification.request.identifier
+        
+    }
+    
+    
+    
 }
 
