@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D54D3523323AF00050D2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D54D3423323AF00050D2F4 /* AppDelegate.swift */; };
+		80D54D3723323AF00050D2F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D54D3623323AF00050D2F4 /* ViewController.swift */; };
+		80D54D3A23323AF00050D2F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D54D3823323AF00050D2F4 /* Main.storyboard */; };
+		80D54D3C23323AF10050D2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D54D3B23323AF10050D2F4 /* Assets.xcassets */; };
+		80D54D3F23323AF10050D2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D54D3D23323AF10050D2F4 /* LaunchScreen.storyboard */; };
+		80D54D4A23323AF10050D2F4 /* NC3_GeofencingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D54D4923323AF10050D2F4 /* NC3_GeofencingTests.swift */; };
+		80D54D5523323AF10050D2F4 /* NC3_GeofencingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D54D5423323AF10050D2F4 /* NC3_GeofencingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D54D4623323AF10050D2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D54D2923323AF00050D2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D54D3023323AF00050D2F4;
+			remoteInfo = "NC3 Geofencing";
+		};
+		80D54D5123323AF10050D2F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D54D2923323AF00050D2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D54D3023323AF00050D2F4;
+			remoteInfo = "NC3 Geofencing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D54D3123323AF00050D2F4 /* NC3 Geofencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NC3 Geofencing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D54D3423323AF00050D2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80D54D3623323AF00050D2F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80D54D3923323AF00050D2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D54D3B23323AF10050D2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80D54D3E23323AF10050D2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80D54D4023323AF10050D2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D54D4523323AF10050D2F4 /* NC3 GeofencingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC3 GeofencingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D54D4923323AF10050D2F4 /* NC3_GeofencingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_GeofencingTests.swift; sourceTree = "<group>"; };
+		80D54D4B23323AF10050D2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D54D5023323AF10050D2F4 /* NC3 GeofencingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NC3 GeofencingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D54D5423323AF10050D2F4 /* NC3_GeofencingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC3_GeofencingUITests.swift; sourceTree = "<group>"; };
+		80D54D5623323AF10050D2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D54D2E23323AF00050D2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4223323AF10050D2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4D23323AF10050D2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D54D2823323AF00050D2F4 = {
+			isa = PBXGroup;
+			children = (
+				80D54D3323323AF00050D2F4 /* NC3 Geofencing */,
+				80D54D4823323AF10050D2F4 /* NC3 GeofencingTests */,
+				80D54D5323323AF10050D2F4 /* NC3 GeofencingUITests */,
+				80D54D3223323AF00050D2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D54D3223323AF00050D2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D54D3123323AF00050D2F4 /* NC3 Geofencing.app */,
+				80D54D4523323AF10050D2F4 /* NC3 GeofencingTests.xctest */,
+				80D54D5023323AF10050D2F4 /* NC3 GeofencingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D54D3323323AF00050D2F4 /* NC3 Geofencing */ = {
+			isa = PBXGroup;
+			children = (
+				80D54D3423323AF00050D2F4 /* AppDelegate.swift */,
+				80D54D3623323AF00050D2F4 /* ViewController.swift */,
+				80D54D3823323AF00050D2F4 /* Main.storyboard */,
+				80D54D3B23323AF10050D2F4 /* Assets.xcassets */,
+				80D54D3D23323AF10050D2F4 /* LaunchScreen.storyboard */,
+				80D54D4023323AF10050D2F4 /* Info.plist */,
+			);
+			path = "NC3 Geofencing";
+			sourceTree = "<group>";
+		};
+		80D54D4823323AF10050D2F4 /* NC3 GeofencingTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D54D4923323AF10050D2F4 /* NC3_GeofencingTests.swift */,
+				80D54D4B23323AF10050D2F4 /* Info.plist */,
+			);
+			path = "NC3 GeofencingTests";
+			sourceTree = "<group>";
+		};
+		80D54D5323323AF10050D2F4 /* NC3 GeofencingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80D54D5423323AF10050D2F4 /* NC3_GeofencingUITests.swift */,
+				80D54D5623323AF10050D2F4 /* Info.plist */,
+			);
+			path = "NC3 GeofencingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D54D3023323AF00050D2F4 /* NC3 Geofencing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D54D5923323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 Geofencing" */;
+			buildPhases = (
+				80D54D2D23323AF00050D2F4 /* Sources */,
+				80D54D2E23323AF00050D2F4 /* Frameworks */,
+				80D54D2F23323AF00050D2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NC3 Geofencing";
+			productName = "NC3 Geofencing";
+			productReference = 80D54D3123323AF00050D2F4 /* NC3 Geofencing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D54D4423323AF10050D2F4 /* NC3 GeofencingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D54D5C23323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 GeofencingTests" */;
+			buildPhases = (
+				80D54D4123323AF10050D2F4 /* Sources */,
+				80D54D4223323AF10050D2F4 /* Frameworks */,
+				80D54D4323323AF10050D2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D54D4723323AF10050D2F4 /* PBXTargetDependency */,
+			);
+			name = "NC3 GeofencingTests";
+			productName = "NC3 GeofencingTests";
+			productReference = 80D54D4523323AF10050D2F4 /* NC3 GeofencingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80D54D4F23323AF10050D2F4 /* NC3 GeofencingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D54D5F23323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 GeofencingUITests" */;
+			buildPhases = (
+				80D54D4C23323AF10050D2F4 /* Sources */,
+				80D54D4D23323AF10050D2F4 /* Frameworks */,
+				80D54D4E23323AF10050D2F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D54D5223323AF10050D2F4 /* PBXTargetDependency */,
+			);
+			name = "NC3 GeofencingUITests";
+			productName = "NC3 GeofencingUITests";
+			productReference = 80D54D5023323AF10050D2F4 /* NC3 GeofencingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D54D2923323AF00050D2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Novelia Refinda";
+				TargetAttributes = {
+					80D54D3023323AF00050D2F4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					80D54D4423323AF10050D2F4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80D54D3023323AF00050D2F4;
+					};
+					80D54D4F23323AF10050D2F4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 80D54D3023323AF00050D2F4;
+					};
+				};
+			};
+			buildConfigurationList = 80D54D2C23323AF00050D2F4 /* Build configuration list for PBXProject "NC3 Geofencing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D54D2823323AF00050D2F4;
+			productRefGroup = 80D54D3223323AF00050D2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D54D3023323AF00050D2F4 /* NC3 Geofencing */,
+				80D54D4423323AF10050D2F4 /* NC3 GeofencingTests */,
+				80D54D4F23323AF10050D2F4 /* NC3 GeofencingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D54D2F23323AF00050D2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D54D3F23323AF10050D2F4 /* LaunchScreen.storyboard in Resources */,
+				80D54D3C23323AF10050D2F4 /* Assets.xcassets in Resources */,
+				80D54D3A23323AF00050D2F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4323323AF10050D2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4E23323AF10050D2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D54D2D23323AF00050D2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D54D3723323AF00050D2F4 /* ViewController.swift in Sources */,
+				80D54D3523323AF00050D2F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4123323AF10050D2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D54D4A23323AF10050D2F4 /* NC3_GeofencingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D54D4C23323AF10050D2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D54D5523323AF10050D2F4 /* NC3_GeofencingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D54D4723323AF10050D2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D54D3023323AF00050D2F4 /* NC3 Geofencing */;
+			targetProxy = 80D54D4623323AF10050D2F4 /* PBXContainerItemProxy */;
+		};
+		80D54D5223323AF10050D2F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D54D3023323AF00050D2F4 /* NC3 Geofencing */;
+			targetProxy = 80D54D5123323AF10050D2F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D54D3823323AF00050D2F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D54D3923323AF00050D2F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D54D3D23323AF10050D2F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D54D3E23323AF10050D2F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D54D5723323AF10050D2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80D54D5823323AF10050D2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D54D5A23323AF10050D2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 Geofencing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-Geofencing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80D54D5B23323AF10050D2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 Geofencing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-Geofencing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80D54D5D23323AF10050D2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 GeofencingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-GeofencingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC3 Geofencing.app/NC3 Geofencing";
+			};
+			name = Debug;
+		};
+		80D54D5E23323AF10050D2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 GeofencingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-GeofencingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NC3 Geofencing.app/NC3 Geofencing";
+			};
+			name = Release;
+		};
+		80D54D6023323AF10050D2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 GeofencingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-GeofencingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC3 Geofencing";
+			};
+			name = Debug;
+		};
+		80D54D6123323AF10050D2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HXKP7AMS9;
+				INFOPLIST_FILE = "NC3 GeofencingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "NOOB.NC3-GeofencingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NC3 Geofencing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D54D2C23323AF00050D2F4 /* Build configuration list for PBXProject "NC3 Geofencing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D54D5723323AF10050D2F4 /* Debug */,
+				80D54D5823323AF10050D2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D54D5923323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 Geofencing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D54D5A23323AF10050D2F4 /* Debug */,
+				80D54D5B23323AF10050D2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D54D5C23323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 GeofencingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D54D5D23323AF10050D2F4 /* Debug */,
+				80D54D5E23323AF10050D2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D54D5F23323AF10050D2F4 /* Build configuration list for PBXNativeTarget "NC3 GeofencingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D54D6023323AF10050D2F4 /* Debug */,
+				80D54D6123323AF10050D2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D54D2923323AF00050D2F4 /* Project object */;
+}
